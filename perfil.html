@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="diamond.html"><i class="dropdown-item" href="#"><i class="fa fa-gem"> </i> DIAMOND </i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="diamond.php">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="producto.php">Ofertas</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Categorias
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="perfil.html"> <i class="fa fa-user-circle"> </i>  Perfil</a>
+                        <a class="dropdown-item" href="compras.html"><i class="fa fa-shopping-cart"> </i> Compras </a>
+                        <a class="dropdown-item" href="envio.html"><i class="fa fa-shipping-fast"> </i> Envio </a>
+                        <a class="dropdown-item" href="catalogo.html"><i class="fa fa-images"> </i> Catalogo </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="registro.html">Registrarse</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card testimonial-card">
+                <div class="card-up rainy-ashville-gradient">
+                </div>
+                <div class="avatar mx-auto"><img src="data:image/png;base64,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" class="rounded-circle img-responsive" alt="Example photo">
+                  <div class="card-body">
+                    </div><div class="card">
+                      <div class="card-header">
+                        <h5><a class="btn btn-info float-right" href="formulario_perfil.php" role="button"> Editar </a>Mi informacion </h5>
+                      </div>
+                      <div class="card-body">
+                        <p class="font-weight-bold">Nombre</p><p>Jan Carlo</p>
+                        <p class="font-weight-bold">Apellido Paterno</p><p>Guzmán </p>
+                        <p class="font-weight-bold">Apellido Materno</p><p>Sánchez  </p>
+                        <p class="font-weight-bold">RFC</p><p>GUSJ010503KC9</p>
+                        <p class="font-weight-bold">Número de teléfono</p><p>+52 7223905579</p>
+                        <p class="font-weight-bold">Correo electrónico</p><p>al221910462@gmail.com</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
