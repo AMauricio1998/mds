@@ -93,6 +93,37 @@ include './carrito.php';
             <td  aling="right"><h3>$<?php echo number_format($total,2);?></h3></td>
             <td></td>
         </tr>
+
+        <tr>
+        <td colspan="5">
+        <form action="pagar.php" method="post">
+
+        <div class="alert alert-successs">
+        <div class="form-group">
+        
+        <label for="my-input">correo contacto</label>
+        <input id="email" name="email"
+         class="form-control" type="text"
+        placeholder="escribe tu correo" 
+        required>
+        <small id="emailHelp"
+        class="form-text text-muted"
+        >
+        los productos se enviaran a este correo</small>
+        </div>
+        <button class="btn btn-primary btn-lg btn-block" type="submit"
+        name=btnAccion
+        value="proceder"
+        >Pagar -></button>
+        </div>
+             
+              
+              </form>
+         
+              
+        
+        
+        </tr>
         </tbody>
 <?php } else{  ?>
 <div class='alert alert-success'>No hay productos en el carrito...
